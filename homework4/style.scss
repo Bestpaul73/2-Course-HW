@@ -17,15 +17,10 @@ a {
 }
 
 .top {
-  // height: 1024px;
-  // background-image: url(./img/top_bgr.jpg);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%),
     url(./img/top_bgr.jpg) center/cover no-repeat;
-
   background-repeat: no-repeat;
   background-position: center;
-  // background-size: cover;
-  // min-width: 680px;
 }
 
 .header {
@@ -74,7 +69,7 @@ a {
   }
 }
 
-.game-box {
+.game-menu {
   // width: 1440px;
   // height: 556px;
   background: #000915;
@@ -97,18 +92,16 @@ a {
     &:hover {
       border: 3px solid #44d2ff;
     }
-  }
 
-  &__item1 {
-    background-image: url(./img/game1.png);
-  }
-
-  &__item2 {
-    background-image: url(./img/game2.png);
-  }
-
-  &__item3 {
-    background-image: url(./img/game3.png);
+    &:nth-child(1) {
+      background-image: url(./img/game1.png);
+    }
+    &:nth-child(2) {
+      background-image: url(./img/game2.png);
+    }
+    &:nth-child(3) {
+      background-image: url(./img/game3.png);
+    }
   }
 
   &__text {
@@ -122,6 +115,11 @@ a {
   }
 }
 
+.game-box {
+  padding-bottom: 487px;
+  background: #000915;
+}
+
 .game {
   background: #000915;
   display: flex;
@@ -130,8 +128,22 @@ a {
   padding-top: 243px;
   padding-bottom: 243px;
 
-  &-direction2 {
+  &:nth-child(1) {
+    .game-img {
+      background-image: url(./img/game1start.png);
+      width: 485px;
+      height: 333px;
+    }
+  }
+
+  &:nth-child(2) {
     flex-direction: row-reverse;
+
+    .game-img {
+      background-image: url(./img/game2start.png);
+      width: 481px;
+      height: 322px;
+    }
   }
 
   &-content {
@@ -141,12 +153,6 @@ a {
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
-
-    &3 {
-      display: flex;
-      align-items: center;
-      width: 1200px;
-    }
 
     &__title {
       color: #fff;
@@ -164,6 +170,10 @@ a {
       font-style: normal;
       font-weight: 300;
       line-height: 32px;
+
+      &__3 {
+        text-align: center;
+      }
     }
 
     &__button {
@@ -185,25 +195,25 @@ a {
     }
   }
 
-  &-img {
-    display: flex;
-
-    &:hover {
-      border: 3px solid #44d2ff;
-    }
-
-    &__1 {
-      background-image: url(./img/game1start.png);
-      width: 485px;
-      height: 333px;
-    }
-
-    &__2 {
-      background-image: url(./img/game2start.png);
-      width: 481px;
-      height: 322px;
+  &:nth-child(3) {
+    .game-content {
+      display: flex;
+      align-items: center;
+      width: 1200px;
+      &__text {
+        text-align: center;
+      }
     }
   }
+
+  &-img:hover {
+    border: 3px solid #44d2ff;
+  }
+}
+
+.border {
+  height: 1px;
+  background: #fff;
 }
 
 .footer {

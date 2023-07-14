@@ -25,61 +25,60 @@
       <button class="header__button">Поехали!</button>
     </div>
 
-    <div class="game-box center">
-      <a href="#game1" class="game-box__item game-box__item1">
-        <p class="game-box__text">Игра 1</p>
+    <div class="game-menu center">
+      <a href="#game1" class="game-menu__item">
+        <p class="game-menu__text">Игра 1</p>
       </a>
-      <a href="#game2" class="game-box__item game-box__item2">
-        <p class="game-box__text">Игра 2</p>
+      <a href="#game2" class="game-menu__item">
+        <p class="game-menu__text">Игра 2</p>
       </a>
-      <a href="#game3" class="game-box__item game-box__item3">
-        <p class="game-box__text">Игра 3</p>
+      <a href="#game3" class="game-menu__item">
+        <p class="game-menu__text">Игра 3</p>
       </a>
     </div>
 
-    <div class="game" id="game1">
-      <div class="game-content">
-        <p class="game-content__title">Времена года</p>
-        <p class="game-content__text">
-            Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится
-        </p>
-        <button class="game-content__button">Играть!</button>
+    <section class="game-box">
+      <div class="game" id="game1">
+        <div class="game-content">
+          <p class="game-content__title">Времена года</p>
+          <p class="game-content__text">
+            Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы
+            узнаете к какому времени года он относится
+          </p>
+          <button class="game-content__button">Играть!</button>
+        </div>
+        <a href="#top" class="game-img"> </a>
       </div>
 
-      <div class="game-img">
-        <a href="#top" class="game-img__1"> </a>
-      </div>
-    </div>
-
-    <div class="game game-direction2" id="game2">
-      <div class="game-content">
-        <p class="game-content__title">Запомни слова</p>
-        <p class="game-content__text">
-          При нажатии на кнопку играть, вы увидите несколько слов, которые вам
-          необходимо запомнить.
-        </p>
-        <button class="game-content__button">Играть!</button>
+      <div class="game" id="game2">
+        <div class="game-content">
+          <p class="game-content__title">Запомни слова</p>
+          <p class="game-content__text">
+            При нажатии на кнопку играть, вы увидите несколько слов, которые вам
+            необходимо запомнить.
+          </p>
+          <button class="game-content__button">Играть!</button>
+        </div>
+        <a href="#top" class="game-img"> </a>
       </div>
 
-      <div class="game-img">
-        <a href="#top" class="game-img__2"> </a>
+      <div class="game" id="game3">
+        <div class="game-content">
+          <p class="game-content__title">Игра в загадки</p>
+          <p class="game-content__text">
+            Компьютер загадывает загадку, вам необходимо ее угадать, если вы
+            дадите не правильный ответ, то компьютер даст вам подсказку. У вас
+            будет три попытки и две подсказки.
+          </p>
+          <button class="game-content__button">Играть!</button>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="game" id="game3">
-      <div class="game-content game-content3">
-        <p class="game-content__title">Игра в загадки</p>
-        <p class="game-content__text">
-          Компьютер загадывает загадку, вам необходимо ее угадать, если вы
-          дадите не правильный ответ, то компьютер даст вам подсказку. У вас
-          будет три попытки и две подсказки.
-        </p>
-        <button class="game-content__button">Играть!</button>
-      </div>
-    </div>
+    <div class="border"></div>
 
     <footer class="footer">
-      <p class="footer-text">Все права защищены</p> 
+      <p class="footer-text">Все права защищены</p>
     </footer>
 
     <script src="./index.js"></script>

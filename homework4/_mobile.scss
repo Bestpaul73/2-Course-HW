@@ -39,7 +39,7 @@
     }
   }
 
-  .game-box {
+  .game-menu {
     flex-direction: column;
 
     &__item {
@@ -59,6 +59,26 @@
     flex-direction: column;
     padding-top: 0;
     padding-bottom: 0;
+
+    &:nth-child(1) {
+      .game-img {
+        background-image: url(./img/game1start2.png);
+        width: 344px;
+        height: 246px;
+        margin-bottom: 85px;
+      }
+    }
+
+    &:nth-child(2) {
+      flex-direction: column;
+
+      .game-img {
+        background-image: url(./img/game2start2.png);
+        width: 344px;
+        height: 231px;
+        margin-bottom: 90px;
+      }
+    }
 
     &-content {
       align-items: center;
@@ -83,25 +103,5 @@
         line-height: 22px;
       }
     }
-
-    &-img {
-      &__1 {
-        background-image: url(./img/game1start2.png);
-        width: 344px;
-        height: 246px;
-        margin-bottom: 85px;
-      }
-
-      &__2 {
-        background-image: url(./img/game2start2.png);
-        width: 344px;
-        height: 231px;
-        margin-bottom: 90px;
-      }
-    }
-  }
-
-  .footer {
-    padding-top: 487px;
   }
 }
