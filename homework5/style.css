@@ -82,6 +82,7 @@ a {
   background-position: center;
   background-size: cover;
   transition: border 0.2s ease-in;
+  box-sizing: border-box;
 }
 .game-menu__item:hover {
   border: 3px solid #44d2ff;
@@ -119,6 +120,7 @@ a {
   padding-bottom: 243px;
 }
 .game:nth-child(1) .game-img {
+  box-sizing: border-box;
   background-image: url(./img/game1start.png);
   width: 485px;
   height: 333px;
@@ -127,6 +129,7 @@ a {
   flex-direction: row-reverse;
 }
 .game:nth-child(2) .game-img {
+  box-sizing: border-box;
   background-image: url(./img/game2start.png);
   width: 481px;
   height: 322px;
@@ -154,9 +157,6 @@ a {
   font-style: normal;
   font-weight: 300;
   line-height: 32px;
-}
-.game-content__text__3 {
-  text-align: center;
 }
 .game-content__button {
   width: 234.063px;
@@ -186,16 +186,11 @@ a {
   border: 3px solid #44d2ff;
 }
 
-.border {
-  height: 1px;
-  background: #fff;
-}
-
 .footer {
   display: flex;
   background: #000915;
   justify-content: center;
-  border-top: #fff;
+  border-top: 1px solid #fff;
 }
 .footer-text {
   color: #fff;
