@@ -17,7 +17,7 @@ a {
 }
 
 .top {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(./img/top_bgr.jpg) center/cover no-repeat;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(../img/top_bgr.jpg) center/cover no-repeat;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -88,13 +88,13 @@ a {
   border: 3px solid #44d2ff;
 }
 .game-menu__item:nth-child(1) {
-  background-image: url(./img/game1.png);
+  background-image: url(../img/game1.png);
 }
 .game-menu__item:nth-child(2) {
-  background-image: url(./img/game2.png);
+  background-image: url(../img/game2.png);
 }
 .game-menu__item:nth-child(3) {
-  background-image: url(./img/game3.png);
+  background-image: url(../img/game3.png);
 }
 .game-menu__text {
   color: #fff;
@@ -121,7 +121,7 @@ a {
 }
 .game:nth-child(1) .game-img {
   box-sizing: border-box;
-  background-image: url(./img/game1start.png);
+  background-image: url(../img/game1start.png);
   width: 485px;
   height: 333px;
 }
@@ -130,7 +130,7 @@ a {
 }
 .game:nth-child(2) .game-img {
   box-sizing: border-box;
-  background-image: url(./img/game2start.png);
+  background-image: url(../img/game2start.png);
   width: 481px;
   height: 322px;
 }
@@ -211,7 +211,7 @@ a {
   .top {
     width: 375px;
     min-width: none;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000915 100%), url(./img/mob_top_bgr.png), lightgray -240.259px 0px/294% 100% no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000915 100%), url(../img/mob_top_bgr.png), lightgray -240.259px 0px/294% 100% no-repeat;
   }
   .header {
     display: flex;
@@ -257,7 +257,7 @@ a {
     padding-bottom: 0;
   }
   .game:nth-child(1) .game-img {
-    background-image: url(./img/game1start2.png);
+    background-image: url(../img/game1start2.png);
     width: 344px;
     height: 246px;
     margin-bottom: 85px;
@@ -266,7 +266,7 @@ a {
     flex-direction: column;
   }
   .game:nth-child(2) .game-img {
-    background-image: url(./img/game2start2.png);
+    background-image: url(../img/game2start2.png);
     width: 344px;
     height: 231px;
     margin-bottom: 90px;

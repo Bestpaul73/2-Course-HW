@@ -8,7 +8,8 @@
     width: 375px;
     min-width: none;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000915 100%),
-      url(./img/mob_top_bgr.png), lightgray -240.259px 0px / 294% 100% no-repeat;
+      url(../img/mob_top_bgr.png),
+      lightgray -240.259px 0px / 294% 100% no-repeat;
   }
 
   .header {
@@ -62,7 +63,7 @@
 
     &:nth-child(1) {
       .game-img {
-        background-image: url(./img/game1start2.png);
+        background-image: url(../img/game1start2.png);
         width: 344px;
         height: 246px;
         margin-bottom: 85px;
@@ -73,7 +74,7 @@
       flex-direction: column;
 
       .game-img {
-        background-image: url(./img/game2start2.png);
+        background-image: url(../img/game2start2.png);
         width: 344px;
         height: 231px;
         margin-bottom: 90px;
