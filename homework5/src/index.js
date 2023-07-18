@@ -8,6 +8,7 @@ function playGameSeasons() {
         "Введите номер месяца (от 1 до 12) и вы узнаете, к какому времени года он относится:"
       )
     );
+    if (monthNumber === undefined) {break};
     if (
       isNaN(monthNumber) ||
       monthNumber === "" ||

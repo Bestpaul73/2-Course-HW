@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  background: #000915;
 }
 
 body {
@@ -9,6 +10,13 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.global-content {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  flex-direction: column;
 }
 
 .center {
@@ -31,7 +39,7 @@ a {
   font-weight: 700;
   line-height: normal;
   padding-top: 217px;
-  padding-left: 120px;
+
   max-width: 789px;
 
   &__text {
@@ -43,7 +51,6 @@ a {
     line-height: 32px;
     max-width: 481px;
     padding-top: 32px;
-    padding-left: 120px;
   }
 
   &__button {
@@ -113,18 +120,17 @@ a {
     line-height: 32px;
     margin-top: 236px;
     margin-left: 32px;
-  }
+    background: transparent;  }
 }
 
 .game-box {
   padding-bottom: 487px;
-  background: #000915;
 }
 
 .game {
   background: #000915;
   display: flex;
-  justify-content: space-evenly;
+  gap: 135px;
   align-items: center;
   padding-top: 243px;
   padding-bottom: 243px;
