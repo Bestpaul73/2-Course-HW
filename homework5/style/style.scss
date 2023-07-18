@@ -91,7 +91,7 @@ a {
     box-sizing: border-box;
 
     &:hover {
-      border: 3px solid #44d2ff;
+      outline: 3px solid #44d2ff;
     }
 
     &:nth-child(1) {
@@ -204,7 +204,8 @@ a {
   }
 
   &-img:hover {
-    border: 3px solid #44d2ff;
+    // border: 3px solid #44d2ff;
+    outline: 3px solid #44d2ff;
   }
 }
 

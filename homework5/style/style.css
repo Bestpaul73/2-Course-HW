@@ -85,7 +85,7 @@ a {
   box-sizing: border-box;
 }
 .game-menu__item:hover {
-  border: 3px solid #44d2ff;
+  outline: 3px solid #44d2ff;
 }
 .game-menu__item:nth-child(1) {
   background-image: url(../img/game1.png);
@@ -183,7 +183,7 @@ a {
   text-align: center;
 }
 .game-img:hover {
-  border: 3px solid #44d2ff;
+  outline: 3px solid #44d2ff;
 }
 
 .footer {
