@@ -11,6 +11,8 @@ console.log(minNumber(8, 4));
 console.log(minNumber(6, 6));
 console.log(minNumber(-122, -123));
 
+// _______________________________________________
+
 console.log("Exercise 2");
 function evenNumber(a) {
   let noText;
@@ -20,6 +22,9 @@ function evenNumber(a) {
 
 console.log(evenNumber(4));
 console.log(evenNumber(5));
+
+// _______________________________________________
+
 
 console.log("Exercise 3");
 function outSquare(a) {
@@ -33,6 +38,9 @@ function getSquare(a) {
 outSquare(3);
 console.log(getSquare(4));
 
+// _______________________________________________
+
+
 console.log("Exercise 4");
 function outAge() {
   const age = Number(prompt("Сколько вам лет?"));
@@ -43,6 +51,9 @@ function outAge() {
 
 outAge();
 
+// _______________________________________________
+
+
 console.log("Exercise 5");
 function outMult(a, b) {
   if (isNaN(Number(a)) || isNaN(Number(b)) || a === "" || b === "") {
@@ -52,6 +63,9 @@ function outMult(a, b) {
 }
 
 console.log(outMult("", NaN));
+
+// _______________________________________________
+
 
 console.log("Exercise 6");
 function getCube(a) {
@@ -66,6 +80,9 @@ console.log(getCube("dfg"));
 for (let i = 0; i <= 10; i++) {
   console.log(getCube(i));
 }
+
+// _______________________________________________
+
 
 console.log("Exercise 7");
 const Pi = 3.14159;
