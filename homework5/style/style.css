@@ -242,8 +242,6 @@ a {
   }
   .game-menu__item {
     width: 343px;
-    height: 300px;
-    margin: 16px;
   }
   .game-menu__text {
     margin-left: 16px;
@@ -253,6 +251,7 @@ a {
     flex-direction: column;
     padding-top: 0;
     padding-bottom: 0;
+    gap: 0;
   }
   .game:nth-child(1) .game-img {
     background-image: url(../img/game1start2.png);

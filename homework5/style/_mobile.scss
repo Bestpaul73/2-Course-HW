@@ -39,8 +39,8 @@
 
     &__item {
       width: 343px;
-      height: 300px;
-      margin: 16px;
+      // height: 300px;
+      // margin: 16px;
     }
 
     &__text {
@@ -53,6 +53,7 @@
     flex-direction: column;
     padding-top: 0;
     padding-bottom: 0;
+    gap: 0;
 
     &:nth-child(1) {
       .game-img {
