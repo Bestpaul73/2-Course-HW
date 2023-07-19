@@ -1,41 +1,36 @@
 @media (max-width: 376px) {
+  .global-content {
+    width: 343px;
+  }
+
   .center {
     padding-left: 0;
     padding-right: 0;
   }
 
   .top {
-    width: 375px;
     min-width: none;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000915 100%),
-      url(./img/mob_top_bgr.png), lightgray -240.259px 0px / 294% 100% no-repeat;
+      url(../img/mob_top_bgr.png),
+      lightgray -240.259px 0px / 294% 100% no-repeat;
+    display: flex;
+    flex-direction: column;
   }
 
   .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
     font-size: 32px;
-    width: 343px;
-    padding-left: 16px;
-    padding-right: 16px;
 
     &__text {
-      width: 343px;
       flex-direction: column;
       justify-content: center;
       text-align: center;
       font-size: 14px;
       line-height: 22px;
-      padding-left: 16px;
-      padding-right: 16px;
     }
 
     &__button {
-      margin-left: 70px;
-      margin-right: 70px;
-      margin-bottom: 239px;
+      margin: 44px auto 239px auto;
     }
   }
 
@@ -44,8 +39,8 @@
 
     &__item {
       width: 343px;
-      height: 300px;
-      margin: 16px;
+      // height: 300px;
+      // margin: 16px;
     }
 
     &__text {
@@ -55,14 +50,14 @@
   }
 
   .game {
-    width: 375px;
     flex-direction: column;
     padding-top: 0;
     padding-bottom: 0;
+    gap: 0;
 
     &:nth-child(1) {
       .game-img {
-        background-image: url(./img/game1start2.png);
+        background-image: url(../img/game1start2.png);
         width: 344px;
         height: 246px;
         margin-bottom: 85px;
@@ -73,7 +68,7 @@
       flex-direction: column;
 
       .game-img {
-        background-image: url(./img/game2start2.png);
+        background-image: url(../img/game2start2.png);
         width: 344px;
         height: 231px;
         margin-bottom: 90px;
@@ -83,7 +78,8 @@
     &-content {
       align-items: center;
       padding: 51px 0px 64px 0px;
-
+      width: 343px;
+      
       &__title {
         color: #fff;
         text-align: center;
@@ -103,5 +99,9 @@
         line-height: 22px;
       }
     }
+
+    &:nth-child(3) .game-content {
+      width: 343px;
+  }
   }
 }
