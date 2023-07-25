@@ -17,6 +17,7 @@ a {
   width: 1200px;
   margin: 0 auto;
   flex-direction: column;
+  bottom: none;
 }
 
 .center {
@@ -66,7 +67,6 @@ a {
     font-weight: 400;
     line-height: normal;
     margin-top: 44px;
-    margin-left: 120px;
     transition: background-color 0.3s ease-in;
     margin-bottom: 493px;
 
